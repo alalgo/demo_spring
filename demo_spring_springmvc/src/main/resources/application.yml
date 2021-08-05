@@ -1,0 +1,19 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+  mvc:
+    view:
+      prefix: /templates/ 
+      suffix: .html
+      
+logging:
+  level: 
+    web: debug
+    org.alalgo: debug 
+  
+server:
+  servlet:
+    session:
+      timeout: PT2H
+  port: 8888

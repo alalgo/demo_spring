@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    addresses: "amqp://admin:secret@localhost"
+
+
+
+
